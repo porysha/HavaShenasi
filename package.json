@@ -3,6 +3,6 @@
         "tailwindcss": "^3.4.14"
     },
     "scripts": {
-        "build": "npx tailwindcss -i ./Public/style/input.css -o ./Public/style/main.css "
+        "build": "npx tailwindcss -i ./Public/input.css -o ./Public/style/main.css "
     }
 }
