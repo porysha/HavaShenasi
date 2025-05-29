@@ -1,6 +1,6 @@
 module.exports = {
     mode: "jit",
-    content: ["./public/*.{html,js}"],
+    content: ["./Public/*.{html,js}"],
     theme: {
         extend: {
             colors: {
