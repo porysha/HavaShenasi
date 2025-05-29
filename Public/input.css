@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Vazirmatn";
+        src: url("/public/fonts/vazir/Vazirmatn-Bold.woff2") format("woff2");
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: "Dana";
+        src: url("/public/fonts/Dana/woff2/DanaFaNum-Regular.woff2")
+            format("woff2");
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "Dana Medium";
+        src: local("Dana Medium"),
+            url("/public/fonts/Dana/woff2/DanaFaNum-Medium.woff2")
+                format("woff2");
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "Dana DemiBold";
+        src: local("Dana DemiBold"),
+            url("/public/fonts/Dana/woff2/DanaFaNum-DemiBold.woff2")
+                format("woff2");
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "Morabba Bold";
+        src: local("Morabba Bold"),
+            url("/public/fonts/Morabba/woff2/Morabba-Bold.woff2")
+                format("woff2");
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "Morabba Light";
+        src: local("Morabba Light"),
+            url("/public/fonts/Morabba/woff2/Morabba-Light.woff2")
+                format("woff2");
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "Morabba Medium";
+        src: local("Morabba Medium"),
+            url("/public/fonts/Morabba/woff2/Morabba-Medium.woff2")
+                format("woff2");
+        font-display: swap;
+    }
+}
+
+@layer components {
+    .clear {
+        background: url(/public/images/clear.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .sonw {
+        background: url(/public/images/sonw.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .rain {
+        background: url(/public/images/rainy.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .sunny {
+        background: url(/public/images/sunny.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .clouds {
+        background: url(/public/images/cloud.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@layer utilities {
+    .flex-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
